@@ -1,0 +1,269 @@
+@import "~antd/dist/antd.css";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+  height: 100vh;
+  overflow: hidden;
+}
+
+div#root {
+  height: 100vh;
+}
+
+div.ql-toolbar.ql-snow {
+  padding-left: 0;
+}
+
+span.ql-picker-label {
+  padding-left: 0;
+}
+
+div.ql-editor {
+  height: 10vh;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(209, 208, 208);
+}
+
+.Subnav-Container::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.private-chat {
+  background-color: #e7e7e7;
+  margin: 0 auto;
+  height: auto;
+}
+
+ul.ant-pagination {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  padding: 0 2%;
+}
+
+#user-list {
+  height: 100vh;
+  background-color: white;
+  overflow: scroll;
+}
+
+div.ant-card {
+  border-radius: 8px;
+  background-color: white;
+  padding: 12px 20px;
+  margin: 12px 0;
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.1);
+}
+
+div.ant-card-head {
+  margin: 0;
+  padding: 0;
+}
+
+div.ant-card-extra {
+  margin: 0;
+  padding: 0;
+}
+div.ant-card-head-title {
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  text-align: left;
+}
+
+div.ant-card-body {
+  padding: 0;
+  text-align: left;
+}
+
+#room-list h4.ant-list-item-meta-title {
+  font-size: 24px;
+
+}
+
+
+
+div.ant-row.ant-form-item {
+  margin-bottom: 32px;
+}
+
+
+.block-picker {
+  box-shadow: none !important;
+}
+
+.color-col {
+  width: 100%;
+  padding: 4px 16px;
+}
+
+.color-col div {
+  text-align: center;
+  width: 100%;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.filterTags {
+  cursor: pointer;
+}
+
+div.ant-card-head {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  border: none;
+}
+
+div.ant-card-body {
+  padding-top: 0;
+  margin-top: 0;
+}
+
+div.ant-card-meta-description {
+  padding-bottom: 8px;
+}
+
+.their-chat {
+  text-align: left;
+  border-radius: 0 16px 16px 16px;
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.2rem;
+  overflow-wrap: break-word;
+}
+
+.friend-msg-content img {
+  width: 50%;
+  height: 50%;
+  text-align: center;
+  background-color: none;
+}
+.my-chat {
+  border-radius: 16px 0 16px 16px;
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.2rem;
+}
+
+.chat-metadata {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  color: gray;
+  font-size: 12px;
+  line-height: 1.4rem;
+}
+
+.ant-avatar {
+  margin: 4px 8px;
+}
+
+.editor-wrapper {
+  max-height: 200px;
+}
+
+.ant-layout-content {
+  overflow-y: auto;
+}
+
+.chat-container {
+  background-color: white;
+  margin: 4%;
+}
+
+div.ant-comment-inner {
+  padding: 0;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+div.text-editor {
+  margin: -1.6px;
+  padding: 0;
+  position: relative;
+  background-color: #fff;
+}
+
+header.ant-layout-header,
+.ant-menu {
+  background-color: #3d50d6;
+}
+.chat-area {
+  margin-top: 5%;
+  height: 60vh;
+  padding: 0 10%;
+  background-color: #fff;
+  overflow-x: hidden;
+}
+
+.user-list {
+  background-color: #fff;
+  margin: 3% 1% 0 0;
+  height: 60vh;
+  border-radius: 10px;
+  overflow: scroll;
+}
+.chat-box {
+  margin-left: 25px;
+  border-radius: 10px;
+}
+
+.their-chat .friend-msg-content {
+  display: inline-block;
+  color: #000000b9;
+  background-color: #bbb2be59;
+}
+.my-chat .friend-msg-content {
+  background-color: #9340bd88;
+  color: #fff;
+  display: inline-block;
+  text-align: right;
+}
+
+.chat-header {
+  font-size: 20px;
+  position: fixed;
+  width: 53.85%;
+  z-index: 9999;
+  background-color: #fff;
+  color: #783699e1;
+  font-weight: bold;
+  display: flex;
+  padding: 10px;
+  justify-content: flex-end;
+}
+
+.send-chat {
+  position: absolute;
+  right: 0%;
+  top: -220%;
+}
+.ql-editor p,
+.ql-editor ol,
+.ql-editor ul,
+.ql-editor pre,
+.ql-editor blockquote,
+.ql-editor h1,
+.ql-editor h2,
+.ql-editor h3,
+.ql-editor h4,
+.ql-editor h5,
+.ql-editor h6 {
+  overflow: hidden;
+  width: 40px;
+  height: 50px;
+}
